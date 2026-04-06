@@ -1,6 +1,6 @@
 # Vulnerable Node Express
 
-This is a vulnerable Node Express service meant to be used as a target for security testing tools.
+This is a vulnerable Node Express service meant to be used as a target for security testing tool.
 All code in this repository is for testing purposes only.
 
 ## Build and Run
