@@ -14,9 +14,9 @@
       runs-on: ubuntu-latest
       
       env:
-        AZ_API_KEY: "$mchyWMbLaoWoZhdyyilh"
+        AZ_API_KEY: "${{ secrets.AZ_TOKEN }}"
         PROJECT_KEY: "ugORkWRupUMxDAAFPWBIPJMEXrYoXFdn"
-        BRANCH_NAME: "$VulnNode"
+        BRANCH_NAME: "${{ github.ref_name }}"
         
       steps:
         - name: Checkout Repository
